@@ -1,0 +1,195 @@
+
+:root{
+--primary-red: #de3727;
+--secondary-cream: #faf4f2;
+--black-color: #000000;
+--white-color: #ffffff;
+
+--ff-playfair: "Playfair Display";
+--ff-acumin: "Acumin R pro";
+--ff-orkney-light: "orkney light";
+--ff-raleway: "raleway variable";
+--ff-funtastic: "funtastic";
+}
+
+
+body{
+   
+    text-align: center;
+}
+
+
+*{
+    background-color: var(--white-color);
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    background-color: var(--secondary-cream);
+   overflow-X: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h3{
+    font-size: 4rem;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h4 {
+    font-size: 48px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: lighter;
+    color: var(--black-color);
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-img {
+    width: 95%;
+   
+  
+}
+
+
+
+.containerinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.containerinfo h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+   
+}
+
+@media screen and (max-width: 768px) {
+   
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+        font-size: 2rem;
+        line-height: 30px;
+      }
+
+      h4 {
+        font-size: 1.7rem;
+      }
+}
+
+ 
+.containercontactform {
+    width: 100%;
+    /* background-color: #24262b; */
+    height: 60vh;
+    border-bottom: 1px solid var(--black-color);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+.containercontactform h3 {
+    color: var(--primary-red);
+    font-family: var(--ff-playfair);
+    font-size: 5rem;
+    text-decoration: underline 2px var(--primary-red);
+    padding-top:3rem;
+}
+
+.form-element {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--primary-red);
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.form-element:hover {
+    padding-left: 10px;
+}
+
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.contacttheteam {
+    margin-bottom: -25px;
+}
+
+
+.sendmessage:hover {
+    cursor: pointer;
+}
+
+/* Media Query Contact Form */
+
+/* For small devices */
+
+@media screen and (max-width: 767px) {
+    .containercontactform {
+        height: auto;
+    }
+
+    .containercontactform h3 {
+        font-size: 3rem;
+    }
+
+    .form-element {
+        width: 90%;
+    }
+
+    .textarea-field {
+        height: 100px;
+    }
+}
+
+/* For medium and large devices */
+@media screen and (min-width: 768px) {
+    .containercontactform {
+        height: 60vh;
+    }
+
+    .containercontactform h3 {
+        font-size: 5rem;
+    }
+
+    .form-element {
+        width: 400px;
+    }
+
+    .textarea-field {
+        height: 150px;
+    }
+}
+
+
+
+

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Acumin R pro';
+    src: url(/assets/fonts/Acumin-RPro.otf);
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(/assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Alien league';
+    src: url(/assets/fonts/alienleague.ttf);
+}
+
+@font-face {
+    font-family: 'funtastic';
+    src: url(/assets/fonts/FUNTASTIC.otf);
+}
+
+@font-face {
+  font-family: 'orkney light';
+  src: url(/assets/fonts/orkney-light.otf);
+
+}
+
+@font-face {
+    font-family: 'raleway variable';
+    src: url(/assets/fonts/static/Raleway-Light.ttf);
+  
+  }
+  
+
